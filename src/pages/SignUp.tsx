@@ -8,7 +8,6 @@ const SignUp = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Implement your sign-up logic here
     navigate('/dashboard');
   };
 
